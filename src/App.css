@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(163, 192, 255);
+}
+/* Target the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Style the track (background) */
+::-webkit-scrollbar-track {
+  background: rgb(130, 170, 255);
+}
+
+/* Style the handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(86, 140, 255);
+  border-radius: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
